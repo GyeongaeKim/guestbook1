@@ -2,7 +2,11 @@
 <%@ page import="com.javaex.vo.GuestVo" %>
 <%@ page import="com.javaex.dao.GuestDao" %>
 
-<%
+<%	
+	request.setCharacterEncoding("UTF-8");
+
+
+	
 	String name = request.getParameter("name");
 	String password = request.getParameter("password");
 	String content = request.getParameter("content");

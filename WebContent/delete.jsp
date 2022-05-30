@@ -3,7 +3,7 @@
 <%@ page import="com.javaex.dao.GuestDao" %>
 <%@ page import="java.util.*" %>
 
-<%
+<%	
 	int no = Integer.parseInt(request.getParameter("no"));
 	String pInput = request.getParameter("password");
 	
